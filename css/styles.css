@@ -10,3 +10,23 @@ footer {
     background: #f4f4f4;
     color: #000;
 }
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1); 
+}
+
+.animated-text {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
