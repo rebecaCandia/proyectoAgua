@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concienciagua</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Concienciagua</h1>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Concienciagua</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#importancia">Importancia del Agua</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#consejos">Consejos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section id="inicio" class="mb-5">
+            <h2 class="text-primary">Bienvenidos</h2>
+            <p>Información sobre la importancia del agua y cómo podemos conservarla.</p>
+        </section>
+        <section id="importancia" class="mb-5">
+            <h2 class="text-primary">Importancia del Agua</h2>
+            <p>El agua es vital para la vida en la Tierra...</p>
+        </section>
+        <section id="consejos" class="mb-5">
+            <h2 class="text-primary">Consejos para Ahorrar Agua</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Apaga el grifo mientras te cepillas los dientes.</li>
+                <li class="list-group-item">Repara las fugas de agua en tu hogar.</li>
+                <li class="list-group-item">Usa regaderas de bajo flujo.</li>
+            </ul>
+        </section>
+        <section id="proyectos" class="mb-5">
+            <h2 class="text-primary">Proyectos y Actividades</h2>
+            <p>Participa en nuestros proyectos para conservar el agua...</p>
+        </section>
+        <section id="contacto" class="mb-5">
+            <h2 class="text-primary">Contacto</h2>
+            <p>Para más información, contáctanos a través de este formulario.</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Concienciagua. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
